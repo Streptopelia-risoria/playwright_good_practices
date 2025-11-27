@@ -12,7 +12,7 @@ export default defineConfig({
 
   // beállítások
   use: {
-    baseURL: 'https://demo.playwright.dev/todomvc/',
+    // no baseURL for this demo – we’ll use full URL in the test
     trace: 'on-first-retry',
   },
 
